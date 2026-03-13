@@ -1,3 +1,7 @@
+> Repo role: sdk-typescript
+> Monorepo source path: `sdk/typescript/` in `AethelredFoundation/aethelred`
+> Canonical public source of truth: `AethelredFoundation/aethelred`
+
 <h1 align="center">aethelred-sdk-ts</h1>
 
 <p align="center">
@@ -6,7 +10,7 @@
 
 <p align="center">
   <a href="https://www.npmjs.com/package/@aethelred/sdk"><img src="https://img.shields.io/npm/v/@aethelred/sdk?style=flat-square&logo=npm" alt="npm"></a>
-  <a href="https://github.com/aethelred/aethelred-sdk-ts/actions"><img src="https://img.shields.io/github/actions/workflow/status/aethelred/aethelred-sdk-ts/ts-ci.yml?style=flat-square&label=CI" alt="CI"></a>
+  <a href="https://github.com/AethelredFoundation/aethelred-sdk-ts/actions"><img src="https://img.shields.io/github/actions/workflow/status/AethelredFoundation/aethelred-sdk-ts/ts-ci.yml?style=flat-square&label=CI" alt="CI"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="License"></a>
   <img src="https://img.shields.io/badge/types-included-blue?style=flat-square&logo=typescript" alt="TypeScript">
 </p>
@@ -56,7 +60,7 @@ console.log(`Agreement: ${seal.agreementPower}/${seal.totalPower}`);
 
 | Module | Description |
 |---|---|
-| `AethelredClient` | Main entry point — connects to an Aethelred node |
+| `AethelredClient` | Main entry point - connects to an Aethelred node |
 | `client.pouw` | Submit jobs, query job status, get rewards |
 | `client.seal` | Query Digital Seals, verify proofs |
 | `client.verify` | ZK proof utilities |
@@ -82,5 +86,5 @@ pnpm lint
 
 ## Related
 
-- [aethelred/aethelred](https://github.com/aethelred/aethelred) — Core node
-- [aethelred/aethelred-cli](https://github.com/aethelred/aethelred-cli) — CLI
+- [AethelredFoundation/aethelred](https://github.com/AethelredFoundation/aethelred) - Canonical core repo
+- [AethelredFoundation/aethelred-cli](https://github.com/AethelredFoundation/aethelred-cli) - CLI
