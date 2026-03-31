@@ -5,9 +5,16 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/aethelred-foundation/aethelred-sdk-ts/actions/workflows/repo-security-baseline.yml"><img src="https://img.shields.io/github/actions/workflow/status/aethelred-foundation/aethelred-sdk-ts/repo-security-baseline.yml?branch=main&style=flat-square&label=Security" alt="Security"></a>
+  <a href="https://github.com/aethelred-foundation/aethelred-sdk-ts/actions/workflows/docs-hygiene.yml"><img src="https://img.shields.io/github/actions/workflow/status/aethelred-foundation/aethelred-sdk-ts/docs-hygiene.yml?branch=main&style=flat-square&label=Docs+Hygiene" alt="Docs Hygiene"></a>
   <a href="https://www.npmjs.com/package/@aethelred/sdk"><img src="https://img.shields.io/npm/v/@aethelred/sdk?style=flat-square&logo=npm" alt="npm"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square" alt="License"></a>
-  <img src="https://img.shields.io/badge/types-included-blue?style=flat-square&logo=typescript" alt="TypeScript">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-5.7-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/types-included-blue?style=flat-square&logo=typescript" alt="Types">
+  <img src="https://img.shields.io/badge/Node.js-20+-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
+  <a href="https://docs.aethelred.io/sdk"><img src="https://img.shields.io/badge/docs-SDK-orange?style=flat-square" alt="Docs"></a>
 </p>
 
 ---
