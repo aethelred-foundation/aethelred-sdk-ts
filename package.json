@@ -133,5 +133,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "overrides": {
+    "esbuild": "^0.25.11",
+    "minimatch": "^9.0.7"
+  }
 }
